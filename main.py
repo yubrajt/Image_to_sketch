@@ -17,7 +17,7 @@ invertedblur = cv2.bitwise_not(blur)
 
 sketch = cv2.divide(grey_filter,invertedblur,scale=256.0)
 #imwrite will save the image in the directory
-cv2.imwrite("Output1.png",sketch)
+#cv2.imwrite("Output1.png",sketch)
 #imshow will just show the result
 cv2.imshow("Output",sketch)
 #since image will be gone immedietly so we have writtern wait key

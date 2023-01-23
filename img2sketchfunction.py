@@ -18,7 +18,7 @@ def img2sketch(photo,k_size):
     # cv2.imwrite("Output1.png",sketch)
     # imshow will just show the result
     cv2.imshow("Output", sketch)
-    # since image will be gone immedietly so we have writtern wait key
+    # since image will be gone immediately, so we have written wait key
     cv2.waitKey()
 
 

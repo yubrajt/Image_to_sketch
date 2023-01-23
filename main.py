@@ -2,7 +2,7 @@
 
 
 import cv2
-
+#between matplotlib and computer vision this is my try on cv2
 #image is being read
 img = cv2.imread("jibu.JPG")
 #inorder to make proper sketch real image should be  grayed, then inverted similarly have to be blurred
